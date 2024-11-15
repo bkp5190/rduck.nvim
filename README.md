@@ -5,6 +5,8 @@ A simple Neovim plugin that displays an ASCII or PNG duck image when prompted wi
 
 ## Usage
 
+Open NeoVim with the runtimepath set for the plugin: `nvim --cmd "set rtp+=." lua/rduck/init.lua`
+
 Run `:so` in the `plugin/init.lua` file to set up the autocommand.
 
 Run `:Duck` to call the function which displays the Rubber Duck ASCII art and message.
