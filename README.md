@@ -10,3 +10,10 @@ Open NeoVim with the runtimepath set for the plugin: `nvim --cmd "set rtp+=." lu
 Run `:so` in the `plugin/init.lua` file to set up the autocommand.
 
 Run `:Duck` to call the function which displays the Rubber Duck ASCII art and message.
+
+## Preview
+
+Terminal: kitty
+
+
+![rduck-nvim preview](assets/rduck-preview.png)
